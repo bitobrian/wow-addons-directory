@@ -5,6 +5,6 @@
 
 ## Checklist
 
-- [ ] I only changed files under `staging/`
+- [ ] This pull request targets `staging` (not `main`)
+- [ ] I edited `<flavor>/<category>.json` for each listed flavor
 - [ ] The addon is open source and the `owner` / `repo` fields match the source
-- [ ] I did not edit published files under `retail/`, `mop-classic/`, `classic/`, `bc-anniversary/`, or `forever/`

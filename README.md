@@ -45,11 +45,11 @@ Example: Retail quality-of-life → `https://raw.githubusercontent.com/bitobrian
 
 `Forever` folders exist so clients can subscribe early; they stay empty until that version ships. Pin a commit SHA instead of `main` if the client needs an immutable snapshot.
 
-Clients must use these root flavor folders. Do not download lists from `staging/`.
+Clients must use these root flavor folders on `main`. Do not download lists from the `staging` branch.
 
 ## Contributing
 
-Propose addons by editing the copies in [`staging/`](staging/). A maintainer or agent reviews the linked source, then promotes approved entries into the published files above. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Propose addons by opening a pull request against the `staging` branch. A maintainer or agent reviews the linked source, then publishes by merging `staging` into `main`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

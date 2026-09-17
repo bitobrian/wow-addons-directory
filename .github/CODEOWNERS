@@ -1,4 +1,4 @@
-# Published catalogs — promote from staging after review
+# Published catalog paths — required review when merging to main
 /retail/ @bitobrian
 /mop-classic/ @bitobrian
 /classic/ @bitobrian
