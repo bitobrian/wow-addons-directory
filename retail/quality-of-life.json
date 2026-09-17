@@ -1,0 +1,24 @@
+{
+  "$schema": "../addons.schema.json",
+  "schemaVersion": "1.0",
+  "directory": {
+    "name": "WoW Addons Directory",
+    "repository": "https://github.com/bitobrian/wow-addons-directory",
+    "description": "Open-source World of Warcraft addons for Retail — Quality of Life."
+  },
+  "flavor": "Retail",
+  "addons": [
+    {
+      "id": "gratwurst",
+      "name": "Gratwurst",
+      "summary": "Automatically congratulates guild achievements with configurable, randomized guild-chat messages.",
+      "author": "bitobrian",
+      "sourceKind": "GitHub",
+      "host": "github.com",
+      "owner": "bitobrian",
+      "repo": "Gratwurst",
+      "category": "QualityOfLife",
+      "tags": ["guild", "chat", "achievements"]
+    }
+  ]
+}

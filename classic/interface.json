@@ -1,0 +1,11 @@
+{
+  "$schema": "../addons.schema.json",
+  "schemaVersion": "1.0",
+  "directory": {
+    "name": "WoW Addons Directory",
+    "repository": "https://github.com/bitobrian/wow-addons-directory",
+    "description": "Open-source World of Warcraft addons for WoW Classic — Interface."
+  },
+  "flavor": "Classic",
+  "addons": []
+}

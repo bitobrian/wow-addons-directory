@@ -7,4 +7,4 @@
 
 - [ ] I only changed files under `staging/`
 - [ ] The addon is open source and the `owner` / `repo` fields match the source
-- [ ] I did not edit the published `addons.*.json` files at the repository root
+- [ ] I did not edit published files under `retail/`, `mop-classic/`, `classic/`, `bc-anniversary/`, or `forever/`

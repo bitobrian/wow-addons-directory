@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/bitobrian/wow-addons-directory/blob/main/addons.schema.json",
   "title": "World of Warcraft addon directory",
-  "description": "A versioned list of open-source World of Warcraft addons for a single game flavor. Clients download one addons.<flavor>.json file from this repository.",
+  "description": "A versioned list of open-source World of Warcraft addons for a single game flavor and category. Clients download one <flavor>/<category>.json file from this repository.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "directory", "flavor", "addons"],
@@ -20,7 +20,7 @@
       }
     },
     "flavor": {
-      "description": "The World of Warcraft version this file lists. One addons.<flavor>.json file exists per flavor.",
+      "description": "The World of Warcraft version this file lists. One directory of category JSON files exists per flavor.",
       "enum": ["Retail", "MoPClassic", "Classic", "BCAnniversary", "Forever"]
     },
     "addons": {
@@ -52,12 +52,7 @@
             "Economy",
             "Collections",
             "Quests",
-            "Nameplates",
-            "ActionBars",
-            "UnitFrames",
             "QualityOfLife",
-            "Roleplay",
-            "Libraries",
             "Development"
           ]
         },
